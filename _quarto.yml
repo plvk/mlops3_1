@@ -1,0 +1,17 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Credit Default"
+  navbar:
+    left:
+      - href: ./for_pages/index.qmd
+        text: Home
+      - href: ./for_pages/about.qmd
+        text: About
+
+format:
+  html:
+    theme: cosmo
+    toc: true
